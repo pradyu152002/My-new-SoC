@@ -1,0 +1,12 @@
+#Block Name       x   y   z    pcf_line
+#---------------- --  --  -    ----
+serial_rx          2  31  0  # set_property LOC A9 [get_ports {serial_rx}]
+i2c_scl_$inp       2  115  0  # set_property LOC L18 [get_ports {i2c_scl}]
+clk100            147  78  0  # set_property LOC E3 [get_ports {clk100}]
+$iopadmap$arty.spi_cs_n.genblk1.t_inv  147  88  0  # set_property LOC C1 [get_ports {spi_cs_n}]
+$iopadmap$arty.spi_clk.genblk1.t_inv  147  91  0  # set_property LOC F1 [get_ports {spi_clk}]
+spi_miso          147  90  0  # set_property LOC G1 [get_ports {spi_miso}]
+$iopadmap$arty.spi_mosi.genblk1.t_inv  147  89  0  # set_property LOC H1 [get_ports {spi_mosi}]
+$iopadmap$arty.serial_tx.genblk1.t_inv   2  41  0  # set_property LOC D10 [get_ports {serial_tx}]
+i2c_sda_$inp       2  116  0  # set_property LOC M18 [get_ports {i2c_sda}]
+cpu_reset         147  87  0  # set_property LOC C2 [get_ports {cpu_reset}]
